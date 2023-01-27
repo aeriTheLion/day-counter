@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "day_counter",
+	"version": "${version}",
+	"name": "Day Counter",
+	"description": "This mod shows the amount of days you played (12 hours = 1 day) in the top left corner",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT License",
+	"icon": "assets/day_counter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.aerithelion.day_counter.Main"
+		],
+		"client": [
+			"net.aerithelion.day_counter.DayCounterClient"
+		]
+	},
+	"mixins": [
+		"day_counter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.13",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
