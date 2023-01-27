@@ -3,7 +3,7 @@
 	"id": "day_counter",
 	"version": "${version}",
 	"name": "Day Counter",
-	"description": "This mod shows the amount of days you played (12 hours = 1 day) in the top left corner",
+	"description": "This mod shows the amount of days you played (12 hours = 1 day) in the top left corner. I plan on adding more to it later",
 	"authors": [
 		"Me!"
 	],
